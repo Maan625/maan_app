@@ -27,5 +27,5 @@ Procédure de déploiement pas à pas
   
 ##
 Ajoute des variables d'environnment
- - APP_ENV
- - APP_SECRET
+ - APP_ENV = prod
+ - APP_SECRET = echo bin2hex(random-bytes(16))
