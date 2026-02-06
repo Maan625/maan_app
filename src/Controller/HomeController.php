@@ -14,6 +14,8 @@ final class HomeController extends AbstractController
         
         return $this->render('home/index.html.twig', [
             'controller_name' => 'HomeController',
+            "random" => bin2hex(random_bytes(16)),
+
         ]);
     }
 }

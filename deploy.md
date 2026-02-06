@@ -24,3 +24,8 @@ Fichier de configuration CI
 Procédure de déploiement pas à pas
 - création de app
 - ajouter un environnment
+  
+##
+Ajoute des variables d'environnment
+ - APP_ENV
+ - APP_SECRET
